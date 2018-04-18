@@ -9,7 +9,9 @@ RUN \
           curl \
 	  dnsutils \
           git-core \
+	  iputils-ping \
 	  net-tools \
+	  telnet \
 	  strace \
 	  tcpdump \
 	  tcptrace \
