@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 MAINTAINER David Smith <dsmith@travelrepublic.co.uk>
 
 ENV DEBIAN_FRONTEND noninteractive
@@ -18,3 +18,5 @@ RUN \
           unzip \
           vim && \
   rm -rf /var/lib/apt/lists/*
+
+ENTRYPOINT ['/bin/bash']
